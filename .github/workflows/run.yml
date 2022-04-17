@@ -43,6 +43,6 @@ jobs:
           touser='${{ secrets.TOUSER }}'
           toparty='${{ secrets.TOPARTY }}'
           totag='${{ secrets.TOTAG }}'
-          open_get_weather='${{ secrets.OPEN_GET_WEATHER }}'
-          area='${{ secrets.AREA }}'
+          open_get_weather='False'
+          area='NO'
           python3 main.py ${user} ${passwd} ${skey} ${sckey} ${position} ${corpid} ${corpsecret} ${agentid} ${touser} ${toparty} ${totag} ${open_get_weather} ${area}
